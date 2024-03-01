@@ -1,8 +1,3 @@
-# Spark Scala test
-
-Implement code:
-
-```scala
 package bigdata.spark_sql
 
 import org.apache.spark.sql.expressions.{Window, WindowSpec}
@@ -52,15 +47,3 @@ object test {
     spark.close()
   }
 }
-
-```
-
-# test result:
-
-when give number is 5
-
-![t1](./1.png)
-
-when give number is 5
-
-![t1](./2.png)
